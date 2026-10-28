@@ -9,8 +9,11 @@
 
 /*Header*/
 .indice{
-    list-style: none;
     background-color: var(--color-secundario);
+}
+
+.indice ul{
+    list-style: none;
 }
 
 .item-indice{
