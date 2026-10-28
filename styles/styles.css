@@ -4,7 +4,7 @@
 :root{
     --color-fondo: #f5f570e0;
     --color-secundario: #f5c66ee0;
-    --color-acento: #0088aafb;
+    --color-acento: #006781fb;
 }
 
 /*Header*/
@@ -22,6 +22,22 @@
 h1, h2, h3, h4, h5, h6{
     font-family: Ultra, sans-serif;
     font-weight: 200;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
 }
 
 body{
