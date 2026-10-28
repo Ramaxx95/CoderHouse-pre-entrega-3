@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Ultra&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 /*Declaracion de variables*/
 :root{
     --color-fondo: #f5f570e0;
@@ -8,12 +13,25 @@
 }
 
 /*Header*/
+.imagen-logo{
+    width: 5rem;
+    height: 5rem;
+}
+
 .indice{
     background-color: var(--color-secundario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
 }
 
 .indice ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .item-indice{
