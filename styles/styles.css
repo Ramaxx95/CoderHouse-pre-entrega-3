@@ -81,6 +81,8 @@ figure{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+    padding: 5px;
     margin: 10px;
 }
 
@@ -112,6 +114,11 @@ figure{
 
 .pregunta{
     font-weight: 700;
+    margin: 10px;
+}
+
+.respuesta{
+    margin: 0px 20px 20px;
 }
 
 .enfasis{
